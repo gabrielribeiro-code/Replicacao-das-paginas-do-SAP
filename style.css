@@ -1,6 +1,6 @@
 #navbar{
 
-    background-color: rgb(163, 155, 155);
+    background-color: rgb(201, 196, 196);
     color: black;
    margin-top: 25px;
     display: flex;
@@ -12,26 +12,33 @@
 
 #cabecalho{
 
-background-color: rgb(163, 155, 155);
+background-color: rgb(201, 196, 196);
  justify-content: space-between;
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      padding-left: 10px;
     padding-right: 10px;
-    display:flex;
+    display: flex;
+    font-size: 14px;
     
 }
 
 h2{
-   font-size: 25px;
+   font-size: 18px;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
 }
-#barra{
-    background-color: yellow;
-    width: 150px;
+#barra{    
+    width: 100%; 
    height: 20px;
-   display: flex;
-   background-size: 2px;
+   
+    background: repeating-linear-gradient(
+        135deg,
+        #f7d774 0px,
+        #f7d774 10px,
+        #e5c45a 10px,
+        #e5c45a 20px
+
+    );
 }
 
 body{
