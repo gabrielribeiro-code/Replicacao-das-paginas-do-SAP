@@ -1,10 +1,23 @@
 #navbar{
-    background-color: gray;
+    background: fixed;
+    background-color: rgb(163, 155, 155);
     color: black;
-   margin-top: 30px;
+   margin-top: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    overflow:hidden;
+    background-size: 2px;
+    padding: -100px;
+    padding-left: 10px;
+ padding-right: 10px;
+}
 
+#cabecalho{
+    background-color: rgb(145, 138, 138);
+ justify-content: space-between;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+h2{
+   font-size: 24px;
 }
