@@ -50,12 +50,22 @@ body{
     padding-right: 10px;
     padding-left: 10px;
     display: flex;
+    width: 35px;
+    height: 35px;
+    font-size: 10px;
+    gap: 8px;
+
     
 }
 .opcoes{
-display: flex;
+
+    align-items: center;
+justify-content: center;
+    display: flex;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-padding: 10px;
+padding: 5px;
+color:rgb(15, 15, 15)
+
 
 }
 
@@ -64,12 +74,24 @@ padding: 10px;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .imagem-cabecalho{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     display: flex;
     padding-left: 2px;
     padding-right: 2px;
     border: black;
     border-width: -2px;
+    
+}
+
+#navegador-repositorios{
+    
+    font-size: 20px;
+    display:flex;
+   gap: 30px;
+   padding-left: 10px;
+ border: gray;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
     
 }
