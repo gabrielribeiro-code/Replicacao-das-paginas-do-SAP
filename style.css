@@ -50,3 +50,8 @@ display: inline-block;
    margin-left: auto;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+#navbar{
+    display: flex;
+    border-radius: 10px;
+}
