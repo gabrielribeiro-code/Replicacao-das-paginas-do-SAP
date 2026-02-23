@@ -46,7 +46,7 @@ body{
 display: inline-block;
 }
 
-
-#cabecalho{
-    
+.saudacoes{
+   margin-left: auto;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
