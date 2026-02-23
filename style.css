@@ -1,5 +1,5 @@
 #navbar{
-    background: fixed;
+
     background-color: rgb(163, 155, 155);
     color: black;
    margin-top: 25px;
@@ -7,19 +7,32 @@
     justify-content: space-between;
     align-items: center;
     background-size: 2px;
-    padding: -100px;
-    padding-left: 10px;
- padding-right: 10px;
+ padding: 5px;
+ 
+}
+#cabecalho{
+
+background-color: rgb(163, 155, 155);
+ justify-content: space-between;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#cabecalho{
-    background-color: rgb(145, 138, 138);
- justify-content: space-between;
- padding-left: 10px;
- padding-right: 10px;
-}
 h2{
-   font-size: 24px;
+   font-size: 25px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+#barra{
+    background-color: yellow;
+    width: 150px;
+   height: 20px;
+   display: flex;
+   background-size: 2px;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
 }
 
 
