@@ -102,6 +102,15 @@ flex-direction: column;
  
 }
 
+#pagina2{
+    font-size: 17px;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    background-color: white;
+
+}
+
 #img-nave{
 padding-left: 10px;
     padding-right: 2px;
@@ -125,12 +134,29 @@ gap:10px
     margin-left: 20px;
 
 }
+.titulos2{
+    display: flex;
+    gap: 20px;
+    color: black;
+}
 
 .barra2{
     background-color: rgb(247, 244, 244);
     padding-right:162px;
     margin-right: 90px;
-   
+
+}
+
+.barra3{
+    background-color: rgb(173, 168, 168);
+    position: fixed;
+    display:flex;
+    top: 134px;
+    left: 366px;
+    margin: 15px;
+    width: 80%;
+    
+    
 }
 .tabela{
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
