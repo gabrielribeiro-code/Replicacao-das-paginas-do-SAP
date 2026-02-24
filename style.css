@@ -95,26 +95,28 @@ p{
    gap: 30px;
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  align-items: flex-start;
- background-color: gray;
+ background-color: rgb(192, 187, 187);
  margin-right: 80%;
 min-height: 100vh;
+flex-direction: column;
  
 }
 
 #img-nave{
-     width: 10px;
-    height: 10px;
-padding-left: 2px;
+padding-left: 10px;
     padding-right: 2px;
     border: black;
-    border-width: -2px;
+    border-width: 2px;
     display: flex;
       justify-content: flex-start;
+      gap:10px;
 }
 .nave{
-display:flex;
-    margin-left: 10px;
-justify-content: flex-start;
+margin-top: -19px;
+    justify-content: flex-start;
+    display:flex;
+gap:10px
+
  }
 
 .titulos{
