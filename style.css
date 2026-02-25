@@ -1,6 +1,6 @@
 #navbar{
 
-    background-color: rgb(163, 155, 155);
+    background-color: rgb(201, 196, 196);
     color: black;
    margin-top: 25px;
     display: flex;
@@ -12,26 +12,33 @@
 
 #cabecalho{
 
-background-color: rgb(163, 155, 155);
+background-color: rgb(201, 196, 196);
  justify-content: space-between;
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      padding-left: 10px;
     padding-right: 10px;
-    display:flex;
+    display: flex;
+    font-size: 14px;
     
 }
 
 h2{
-   font-size: 25px;
+   font-size: 18px;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
 }
-#barra{
-    background-color: yellow;
-    width: 150px;
+#barra{    
+    width: 100%; 
    height: 20px;
-   display: flex;
-   background-size: 2px;
+   
+    background: repeating-linear-gradient(
+        135deg,
+        #f7d774 0px,
+        #f7d774 10px,
+        #e5c45a 10px,
+        #e5c45a 20px
+
+    );
 }
 
 body{
@@ -43,12 +50,22 @@ body{
     padding-right: 10px;
     padding-left: 10px;
     display: flex;
+    width: 35px;
+    height: 35px;
+    font-size: 10px;
+    gap: 8px;
+
     
 }
 .opcoes{
-display: flex;
+
+    align-items: center;
+justify-content: center;
+    display: flex;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-padding: 10px;
+padding: 5px;
+color:rgb(15, 15, 15)
+
 
 }
 
@@ -57,8 +74,8 @@ padding: 10px;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .imagem-cabecalho{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     display: flex;
     padding-left: 2px;
     padding-right: 2px;
@@ -66,3 +83,99 @@ padding: 10px;
     border-width: -2px;
     
 }
+
+p{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navegador-repositorios{
+    font-size: 17px;
+    display: flex;
+   gap: 30px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ align-items: flex-start;
+ background-color: rgb(192, 188, 188);
+ margin-right: 80%;
+min-height: 100vh;
+flex-direction: column;
+ 
+}
+
+#pagina2{
+    font-size: 17px;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    background-color: white;
+
+}
+
+#img-nave{
+padding-left: 10px;
+    padding-right: 2px;
+    border: black;
+    border-width: 2px;
+    display: flex;
+      justify-content: flex-start;
+      gap:10px
+}
+.nave{
+    margin-top: -19px;
+    justify-content: flex-start;
+    display:flex;
+gap:10px
+
+ }
+
+.titulos{
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+
+}
+.titulos2{
+    display: flex;
+    gap: 20px;
+    color: black;
+}
+
+.barra2{
+    background-color: rgb(247, 244, 244);
+    padding-right:162px;
+    margin-right: 90px;
+
+}
+
+.barra3{
+    background-color: rgb(173, 168, 168);
+    position: fixed;
+    display:flex;
+    top: 134px;
+    left: 366px;
+    margin: 15px;
+    width: 80%;
+    
+    
+}
+.tabela{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   border: 2px solid rgb(190, 189, 189);
+   margin-top: -20px;
+
+   
+}
+td{
+   border: 2px solid rgb(201, 197, 197); 
+   background-color: rgb(255, 255, 255);
+   
+}
+.td1{
+    background-color: rgb(192, 187, 187);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.td2{
+    background-color: white;
+}
+
