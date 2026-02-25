@@ -123,16 +123,37 @@ height:10px;
       gap:10px
       
 }
+
+.img-nave2{
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+     border: black;
+    border-width: 2px;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      
+}
 .nave{
     margin-top: -19px;
     justify-content: flex-start;
     display:flex;
-gap:10px
+gap:10px;
 
  }
  .nave2{
-    padding: 10px;
     display:flex;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 120px;
+    height: 30px;
+   margin-right: 10px;
+   padding: 10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: black;
+   font-size: 10px;
+   align-items:center;
  }
 
 .titulos{
@@ -165,11 +186,14 @@ gap:10px
    
 }
 .barra4{
-    background-color: rgb(172, 171, 171);
-    display: flex;
-    top: 200px;
-    left: 300px;
+    background-color: rgb(218, 216, 216);
+    position: fixed;
     width: 80%;
+    height: 30px;
+    display: flex;
+   top: 215px;
+    margin-left: 380px;
+   
 }
 .tabela{
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
