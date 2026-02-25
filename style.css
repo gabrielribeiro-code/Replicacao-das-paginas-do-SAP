@@ -107,7 +107,9 @@ flex-direction: column;
     display: flex;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
-    background-color: white;
+    margin-top: -836px ;
+
+   
 
 }
 
@@ -123,16 +125,37 @@ height:10px;
       gap:10px
       
 }
+
+.img-nave2{
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+     border: black;
+    border-width: 2px;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      
+}
 .nave{
     margin-top: -19px;
     justify-content: flex-start;
     display:flex;
-gap:10px
+gap:10px;
 
  }
  .nave2{
-    padding: 10px;
     display:flex;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 120px;
+    height: 30px;
+   margin-right: 10px;
+   padding: 10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: black;
+   font-size: 10px;
+   align-items:center;
  }
 
 .titulos{
@@ -155,7 +178,7 @@ gap:10px
 }
 
 .barra3{
-    background-color: rgb(190, 185, 185);
+    background-color: rgb(226, 223, 223);
     position: fixed;
     display:flex;
     top: 134px;
@@ -165,19 +188,29 @@ gap:10px
    
 }
 .barra4{
-    background-color: rgb(172, 171, 171);
-    display: flex;
-    top: 200px;
-    left: 300px;
+    background-color: rgb(194, 190, 190);
+    position: fixed;
     width: 80%;
+    height: 30px;
+    display: flex;
+   top: 215px;
+    margin-left: 380px;
+   
 }
 .tabela{
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    border: 2px solid rgb(190, 189, 189);
    margin-top: -20px;
 
-   
 }
+
+.tabela-2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 390px;
+    
+    
+}
+
 td{
    border: 2px solid rgb(201, 197, 197); 
    background-color: rgb(255, 255, 255);
@@ -189,27 +222,7 @@ td{
     padding-right: 15px;
 }
 .td2{
-    background-color: rgb(255, 255, 255);
-}
-
-#opcoes{
-    border-radius: 10px;
-    color: aliceblue;
-    background-color: blue;
-}
-
-#navbar2{
-    background-color: rgba(154, 200, 240, 0.637);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px; 
-    color: rgb(255, 255, 255);  
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-top: 30px;
-    border-radius: 10px;
+    background-color: white;
 }
 
 #opcoes{
