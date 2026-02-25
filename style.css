@@ -189,6 +189,34 @@ td{
     padding-right: 15px;
 }
 .td2{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
+#opcoes{
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: blue;
+}
+
+#navbar2{
+    background-color: rgba(154, 200, 240, 0.637);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px; 
+    color: rgb(255, 255, 255);  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+#opcoes{
+  border-radius: 10px;
+}
+.oi {
+    display: flex;
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
