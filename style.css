@@ -107,7 +107,9 @@ flex-direction: column;
     display: flex;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
-    background-color: white;
+    margin-top: -836px ;
+
+   
 
 }
 
@@ -176,7 +178,7 @@ gap:10px;
 }
 
 .barra3{
-    background-color: rgb(190, 185, 185);
+    background-color: rgb(226, 223, 223);
     position: fixed;
     display:flex;
     top: 134px;
@@ -186,7 +188,7 @@ gap:10px;
    
 }
 .barra4{
-    background-color: rgb(218, 216, 216);
+    background-color: rgb(194, 190, 190);
     position: fixed;
     width: 80%;
     height: 30px;
@@ -200,8 +202,15 @@ gap:10px;
    border: 2px solid rgb(190, 189, 189);
    margin-top: -20px;
 
-   
 }
+
+.tabela-2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 390px;
+    
+    
+}
+
 td{
    border: 2px solid rgb(201, 197, 197); 
    background-color: rgb(255, 255, 255);
@@ -214,5 +223,16 @@ td{
 }
 .td2{
     background-color: white;
+}
+
+.td-tabela2{
+background-color: rgb(192, 187, 187);
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.td-segunda-parte{
+background-color: white;
 }
 
