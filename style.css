@@ -224,6 +224,12 @@ td{
 .td2{
     background-color: white;
 }
+.td-tabela2{
+     background-color: rgb(192, 187, 187);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 
 #opcoes{
   border-radius: 10px;
